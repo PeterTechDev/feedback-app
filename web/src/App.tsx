@@ -3,15 +3,15 @@ interface ButtonProps {
 }
 
 function Button(props: ButtonProps) {
-  return <button>{props.text}</button>;
+  return <button className="bg-violet-500 p-3">{props.text}</button>;
 }
 
 function App() {
   return (
     <div>
       <Button text="eita" />
-      <Button text="olha olha" />
-      <Button />
+      <Button text="olha" />
+      <Button text="clique" />
     </div>
   );
 }
